@@ -25,3 +25,8 @@ class Person:
     def happy_birthday(self):
         """ages the person by one year"""
         self.age += 1
+
+
+if __name__ == '__main__':
+    PERSON_P = input().strip().split()
+    print(Person(PERSON_P[0], PERSON_P[1], PERSON_P[2], PERSON_P[3]))
