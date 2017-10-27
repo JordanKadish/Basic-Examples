@@ -1,0 +1,1 @@
+Basic inheritance, where car inherits the methods of vehicles
